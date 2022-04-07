@@ -113,7 +113,7 @@ label > span {
   transition: all 0.5s ease-in-out;
 }
 label input {
-  display: none;
+  opacity: 0;
 }
 #toggle__checkbox {
   position: absolute;
