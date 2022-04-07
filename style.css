@@ -11,6 +11,7 @@
 body {
   background-color: var(--darkBlue);
   font-family: "Poppins", sans-serif;
+  margin-top: 130px;
 }
 .card {
   box-shadow: 0px 0px 3px 1px var(--white);
@@ -106,7 +107,7 @@ label > span {
   padding: 15px 40px;
   border-radius: 12px;
   background-color: var(--blue);
-  transition: all 0.3s ease-in-out;
+
   position: absolute;
   left: 10px;
   z-index: -1;
@@ -391,25 +392,6 @@ label input {
   }
 }
 
-/* i:hover::after {
-  content: "";
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  background-color: white;
-
-  top: 100%;
-  left: -20%;
-  animation: transferColorBall ease 1s forwards;
-}
-
-@keyframes transferColorBall {
-  to {
-    background-color: var(--blue);
-    width: 20px;
-  }
-} */
-
 @media only screen and (max-width: 600px) {
   .card {
     margin-left: 280px;
@@ -441,7 +423,7 @@ label input {
     padding: 15px 40px;
     border-radius: 12px;
     background-color: var(--blue);
-    transition: all 0.3s ease-in-out;
+
     position: absolute;
     left: 10px;
     z-index: -1;
@@ -462,3 +444,22 @@ label input {
   text-align: center;
   transform: translateX(-50%);
 }
+
+/* i:hover::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+
+  top: 100%;
+  left: -20%;
+  animation: transferColorBall ease 1s forwards;
+}
+
+@keyframes transferColorBall {
+  to {
+    background-color: var(--blue);
+    width: 20px;
+  }
+} */
