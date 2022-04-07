@@ -409,3 +409,19 @@ label input {
     width: 20px;
   }
 } */
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin-left: 280px;
+    margin-top: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .card {
+    margin-left: 50%;
+    margin-top: 0;
+    width: 100%;
+  }
+}
