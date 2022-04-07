@@ -425,3 +425,12 @@ label input {
     width: 100%;
   }
 }
+
+.copy {
+  color: white;
+  font-weight: 200;
+  font-size: 10px;
+  margin-left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+}
