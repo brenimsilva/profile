@@ -444,22 +444,3 @@ label input {
   text-align: center;
   transform: translateX(-50%);
 }
-
-/* i:hover::after {
-  content: "";
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  background-color: white;
-
-  top: 100%;
-  left: -20%;
-  animation: transferColorBall ease 1s forwards;
-}
-
-@keyframes transferColorBall {
-  to {
-    background-color: var(--blue);
-    width: 20px;
-  }
-} */
