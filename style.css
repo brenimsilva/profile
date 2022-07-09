@@ -11,7 +11,6 @@
 body {
   background-color: var(--darkBlue);
   font-family: "Poppins", sans-serif;
-  margin-top: 130px;
 }
 .card {
   box-shadow: 0px 0px 3px 1px var(--white);
@@ -43,8 +42,7 @@ body {
   margin-left: 50%;
   transform: translateX(-33%);
 }
-.profile__informations {
-}
+
 .profile__job {
   color: var(--white);
   font-size: 10px;
@@ -277,30 +275,30 @@ label input {
 }
 
 .project__tech1 {
-  animation: tech__1 1s linear forwards;
+  animation: fadeInTech 1s linear forwards;
   transform: translate(0);
   opacity: 0;
 }
 
 .project__tech2 {
-  animation: tech__2 1s linear forwards;
+  animation: fadeInTech 1s linear forwards 0.20s;
   transform: translate(0);
   opacity: 0;
 }
 
 .project__tech3 {
-  animation: tech__3 1s linear forwards;
+  animation: fadeInTech 1s linear forwards 0.40s;
   transform: translate(0);
   opacity: 0;
 }
 
 .project__tech4 {
-  animation: tech__4 1s linear forwards;
+  animation: fadeInTech 1s linear forwards 0.60s;
   transform: translate(0);
   opacity: 0;
 }
 
-@keyframes tech__1 {
+@keyframes fadeInTech {
   0% {
     opacity: 0;
     transform: translateX(0);
@@ -319,53 +317,12 @@ label input {
   }
 }
 
-@keyframes tech__2 {
-  0% {
-    opacity: 0;
-    transform: translateX(0);
-  }
-  25% {
-    opacity: 0;
-    transform: translateX(0);
-  }
-  45% {
-    opacity: 0;
-    transform: translateX(0);
-  }
-  85% {
-    transform: translateX(10%);
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(10%);
-    opacity: 1;
-  }
-}
-
-@keyframes tech__3 {
-  0% {
-    opacity: 0;
-    transform: translateX(0);
-  }
-  59% {
-    opacity: 0;
-    transform: translateX(0);
-  }
-  99% {
-    transform: translateX(10%);
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(10%);
-    opacity: 1;
-  }
-}
-
 @keyframes showTitle {
   to {
     opacity: 1;
   }
 }
+
 .fadeIn {
   animation: add_opacity 900ms ease forwards;
 }
