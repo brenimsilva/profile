@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Breno's Profile Page</title>
+  </head>
+  <body>
+    <div class="card">
+      <section class="profile">
+        <div class="profile__informations">
+          <div class="profile__picture"></div>
+          <h3 class="profile__name">Breno Almeida</h3>
+          <p class="profile__job">Programador/Musico</p>
+          <ul class="profile__links">
+            <li>
+              <a href="https://instagram.com/brenimsilva" class="icons"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/breno-almeida-miranda-da-silva-3a5112194/" class="icons"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/brenimsilva" class="icons"><i class="fa-brands fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="toggle">
+        <label>
+          <div class="skills__button actived__button">Skills</div>
+          <div class="projects__button deactived__button">Projects</div>
+          <input type="checkbox" name="" id="toggle__checkbox" />
+          <span></span>
+        </label>
+      </div>
+      <section class="skills fadeIn">
+        <div class="html">
+          <h5 class="skills__html">HTML</h5>
+          <i class="fa-brands fa-html5"></i>
+          <p class="">Intermediate</p>
+        </div>
+        <div class="css">
+          <h5 class="skills__css">CSS</h5>
+          <i class="fa-brands fa-css3-alt"></i>
+          <p class="">Intermediate</p>
+        </div>
+        <div class="js">
+          <h5 class="skills__js">JS</h5>
+          <i class="fa-brands fa-js"></i>
+          <p class="">Intermediate</p>
+        </div>
+        <div class="react">
+          <h5 class="skills__react">React JS</h5>
+          <i class="fa-brands fa-react"></i>
+          <p class="">Beginner</p>
+        </div>
+        <div class="node">
+          <h5 class="skills__node">Node JS</h5>
+          <i class="fa-brands fa-node-js"></i>
+          <p class="">Beginner</p>
+        </div>
+        <div class="firebase">
+          <h5 class="skills__firebase">Firebase</h5>
+          <i class="fa-solid fa-database"></i>
+          <p class="">Beginner</p>
+        </div>
+      </section>
+      <section class="projects fadeOut">
+        <div onclick="window.open('https://brenimsilva.github.io/calculator/')" class="project__calculator project">
+          <h5 class="project__title">Calculator</h5>
+          <ul class="project__techs">
+            <li><p class="project__tech1">HTML</p></li>
+            <li><p class="project__tech2">CSS</p></li>
+            <li><p class="project__tech3">JS</p></li>
+          </ul>
+        </div>
+        <div onclick="window.open('https://brenimsilva.github.io/To-do-List/')"class="project__todoList project">
+          <h5 class="project__title">To-do List</h5>
+          <ul class="project__techs">
+            <li><p class="project__tech1">HTML</p></li>
+            <li><p class="project__tech2">CSS</p></li>
+            <li><p class="project__tech3">JS</p></li>
+        </div>
+        <div onclick="window.open('https://brenimsilva.github.io/media/')" class="project__media project">
+          <h5 class="project__title">Average</h5>
+          <ul class="project__techs">
+            <li><p class="project__tech1">HTML</p></li>
+            <li><p class="project__tech2">CSS</p></li>
+            <li><p class="project__tech3">JS</p></li>
+        </div>
+        <div class="project__webSite project">
+          <h5 class="project__title">WebSite</h5>
+          <ul class="project__techs">
+            <li><p class="project__tech1">HTML</p></li>
+            <li><p class="project__tech2">CSS</p></li>
+            <li><p class="project__tech3">JS</p></li>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p class="copy">Copyright ©2022 Breno Almeida. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
